@@ -13,6 +13,7 @@
 		2D8240FB1E8CF3CA00548A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D8240F91E8CF3CA00548A5D /* Main.storyboard */; };
 		2D8240FD1E8CF3CA00548A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8240FC1E8CF3CA00548A5D /* Assets.xcassets */; };
 		2D8241001E8CF3CA00548A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D8240FE1E8CF3CA00548A5D /* LaunchScreen.storyboard */; };
+		2D8241091E8CF49000548A5D /* blueListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8241081E8CF49000548A5D /* blueListTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2D8240FC1E8CF3CA00548A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D8240FF1E8CF3CA00548A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D8241011E8CF3CA00548A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D8241071E8CF49000548A5D /* blueListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blueListTableViewCell.h; sourceTree = "<group>"; };
+		2D8241081E8CF49000548A5D /* blueListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blueListTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				2D8240F41E8CF3CA00548A5D /* AppDelegate.m */,
 				2D8240F61E8CF3CA00548A5D /* ViewController.h */,
 				2D8240F71E8CF3CA00548A5D /* ViewController.m */,
+				2D8241071E8CF49000548A5D /* blueListTableViewCell.h */,
+				2D8241081E8CF49000548A5D /* blueListTableViewCell.m */,
 				2D8240F91E8CF3CA00548A5D /* Main.storyboard */,
 				2D8240FC1E8CF3CA00548A5D /* Assets.xcassets */,
 				2D8240FE1E8CF3CA00548A5D /* LaunchScreen.storyboard */,
@@ -110,7 +115,7 @@
 				TargetAttributes = {
 					2D8240EC1E8CF3C900548A5D = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 42572F97Z7;
+						DevelopmentTeam = 4ZLPTK9YSV;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D8240F81E8CF3CA00548A5D /* ViewController.m in Sources */,
+				2D8241091E8CF49000548A5D /* blueListTableViewCell.m in Sources */,
 				2D8240F51E8CF3CA00548A5D /* AppDelegate.m in Sources */,
 				2D8240F21E8CF3CA00548A5D /* main.m in Sources */,
 			);
@@ -273,8 +279,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 42572F97Z7;
+				DEVELOPMENT_TEAM = 4ZLPTK9YSV;
 				INFOPLIST_FILE = "蓝牙byme/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.net.ryh.www.shuaidong.--byme";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,8 +292,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 42572F97Z7;
+				DEVELOPMENT_TEAM = 4ZLPTK9YSV;
 				INFOPLIST_FILE = "蓝牙byme/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.net.ryh.www.shuaidong.--byme";
 				PRODUCT_NAME = "$(TARGET_NAME)";
